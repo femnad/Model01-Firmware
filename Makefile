@@ -15,7 +15,8 @@ endif
 ifeq ($(shell uname -s),Darwin)
 search_path += $(HOME)/Documents/Arduino/hardware/keyboardio/avr/libraries/Kaleidoscope
 else
-search_path += $(HOME)/Arduino/hardware/keyboardio/avr/libraries/Kaleidoscope
+SKETCHBOOK_DIR ?= $(HOME)/z/dy/arduino-1.8.8
+PACKAGE_DIR ?= $(HOME)/.arduino-1.8.8
 endif
 
 sketch_makefile := etc/makefiles/sketch.mk
