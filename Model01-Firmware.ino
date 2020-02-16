@@ -185,8 +185,8 @@ KEYMAPS(
    ___, ___, ___, ___,
    ___,
 
-   Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
-   Consumer_PlaySlashPause,    LSHIFT(Key_6), LSHIFT(Key_7),     LSHIFT(Key_8),    Key_LeftBracket, Key_RightBracket, Key_F12,
+   ___, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
+   ___, LSHIFT(Key_6), LSHIFT(Key_7),     LSHIFT(Key_8),    Key_LeftBracket, Key_RightBracket, Key_F12,
                                Key_Slash,     Key_Minus,         LSHIFT(Key_Minus), Key_LeftBracket,  Key_RightBracket,              ___,
    ___,                        Key_Backslash, LSHIFT(Key_Equals), Consumer_VolumeIncrement, ___,             Key_Backslash,    Key_Pipe,
    ___, ___, ___, ___,
