@@ -194,8 +194,8 @@ KEYMAPS(
 
   [MISC] =  KEYMAP_STACKED
   (___, ___, ___, ___, ___, ___, ___,
-   ___, ___, Key_Home, Key_PageUp, Key_End, Key_mouseScrollUp, ___,
-   ___, ___, Key_Home, Key_PageDown, Key_End, Key_mouseScrollDn,
+   ___, ___, Key_Home, Key_mouseUp, Key_End, Key_mouseScrollUp, ___,
+   ___, ___, Key_mouseL,Key_mouseDn,Key_mouseR, Key_mouseScrollDn,
    ___, ___, ___, Key_mouseScrollL, Key_mouseScrollR, ___, ___,
    ___, ___, ___, ___,
    ___,
