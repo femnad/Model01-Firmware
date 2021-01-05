@@ -164,17 +164,17 @@ KEYMAPS(
 
   [PRIMARY] = KEYMAP_STACKED
   (___,          Key_1,         Key_2,     Key_3,     Key_4, Key_5, Key_Escape,
-   Consumer_VolumeIncrement,   Key_Quote,  Key_Comma, Key_Period, Key_P, Key_Y, Key_Tab,
-   Consumer_VolumeDecrement,   Key_A,      Key_O,     Key_E,      Key_U, Key_I,
-   OSM(LeftGui), Key_Semicolon, Key_Q,     Key_J,      Key_K, Key_X, OSM(LeftShift),
-   Key_Spacebar, OSM(LeftControl), OSM(LeftAlt), OSL(MISC),
+   Consumer_PlaySlashPause,   Key_Quote,  Key_Comma, Key_Period, Key_P, Key_Y, Key_Tab,
+   Consumer_Mute,   Key_A,      Key_O,     Key_E,      Key_U, Key_I,
+   OSL(MISC), Key_Semicolon, Key_Q,     Key_J,      Key_K, Key_X, OSM(LeftShift),
+   Key_Spacebar, OSM(LeftControl), OSM(LeftAlt), OSM(LeftGui),
    OSL(FUNCTION),
 
    Key_Backspace,    Key_6, Key_7, Key_8, Key_9, Key_0, Key_CapsLock,
-   Key_Enter,        Key_F, Key_G, Key_C, Key_R, Key_L, Consumer_Mute,
-                     Key_D, Key_H, Key_T, Key_N, Key_S, Consumer_PlaySlashPause,
-   OSM(RightShift),  Key_B, Key_M, Key_W, Key_V, Key_Z, OSM(RightGui),
-   OSL(MISC), OSM(RightAlt), OSM(RightControl), Key_Spacebar,
+   Key_Enter,        Key_F, Key_G, Key_C, Key_R, Key_L, Consumer_VolumeIncrement,
+                     Key_D, Key_H, Key_T, Key_N, Key_S, Consumer_VolumeDecrement,
+   OSM(RightShift),  Key_B, Key_M, Key_W, Key_V, Key_Z, OSL(MISC),
+   OSM(RightGui), OSM(RightAlt), OSM(RightControl), Key_Spacebar,
    OSL(FUNCTION)),
 
   [FUNCTION] =  KEYMAP_STACKED
