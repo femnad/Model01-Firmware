@@ -17,6 +17,7 @@ search_path += $(HOME)/Documents/Arduino/hardware/keyboardio/avr/libraries/Kalei
 else
 SKETCHBOOK_DIR ?= $(HOME)/z/dy/arduino-1.8.8
 PACKAGE_DIR ?= $(HOME)/.arduino-1.8.8
+search_path += $(HOME)/z/gl/Kaleidoscope
 endif
 
 sketch_makefile := etc/makefiles/sketch.mk
