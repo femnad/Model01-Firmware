@@ -474,7 +474,8 @@ void setup() {
 
   // MouseKeys
   MouseKeys.speed = 13;
-  MouseKeys.accelSpeed = 0;
+  MouseKeys.accelSpeed = 3;
+  MouseKeys.setSpeedLimit(64);
   MouseKeys.wheelSpeed = 2;
 
   // ActiveModColor
