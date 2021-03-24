@@ -200,10 +200,10 @@ KEYMAPS(
    ___, ___, ___, ___,
    ___,
 
-   M(MACRO_VERSION_INFO),  ___,           ___,           ___,           ___,             Key_KeypadSubtract, ___,
-   ___,                    Key_mouseBtnR, Key_mouseBtnL, Key_UpArrow,   Key_PageUp,      ___, ___,
+   M(MACRO_VERSION_INFO),  ___,           ___,           ___,           ___,             ___, ___,
+   ___,                    Key_mouseBtnR, Key_mouseBtnL, Key_UpArrow,   Key_Insert,      ___, ___,
                            Key_mouseBtnM, Key_LeftArrow, Key_DownArrow, Key_RightArrow,  ___, ___,
-   ___,                    LSHIFT(Key_Slash), Key_PageDown, Key_PageUp,  ___, ___, ___,
+   ___,                    LSHIFT(Key_Slash), Key_PageDown, Key_PageUp,  Key_Delete,     ___, ___,
    ___, ___, ___, ___,
    ___)
 ) // KEYMAPS(
